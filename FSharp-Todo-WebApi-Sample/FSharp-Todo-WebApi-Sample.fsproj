@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>FSharp_Todo_WebApi_Sample</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="TodoItem.fs" />
+        <Compile Include="Controllers\TodoItemsController.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>
